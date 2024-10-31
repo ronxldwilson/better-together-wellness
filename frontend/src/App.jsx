@@ -1,17 +1,15 @@
 import FAQAccordion from './components/FAQAccordion'
+import ContactForm from './components/ContactForm'
+import BAYHorizontalScroll from './components/BAYHorizontalScroll'
+import Header from './components/Header'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <div className='header text-2xl flex justify-between m-4'>
-        <div className='logo' > Logo </div>
-        <div className='right-menu flex' >
-          <div className=''>Services </div>
-          <div>Team </div>
-          <div>FAQ </div>
-        </div>
+    < div className='root m-0'>
+      <div>
+        <Header></Header>
       </div>
 
       <div className='section-Landing'>
@@ -40,14 +38,14 @@ function App() {
 
       </div>
 
-      <div className='section-bay-program'>
+      <div className='section-bay-program '>
+      <div>
       <h4>At Better Together, we don’t believe in short term solutions, but sustainable ones. The Bright As You Program brings a holistic balance between the mental, emotional, and physical.</h4>
-      
-      BAY Card 01
-      BAY Card 02
-      BAY Card 03
-      BAY Card 04 
-      BAY Card 05
+      </div>
+      <div>
+      <BAYHorizontalScroll></BAYHorizontalScroll>  
+      </div>
+
       </div>
 
       <div className='section-Testimonials'>
@@ -57,20 +55,42 @@ function App() {
       <div className='section-faq'>
       <FAQAccordion></FAQAccordion>
       </div>
-npm
-      <div className='section-contact-us'>
-      Have Questions? We’re an email away!
 
-      Reach us at query.bettertogether@gmail.com for questions, queries, or collaborations.
+      <div className='section-contact-us flex m-10 justify-evenly bg-slate-400'>
+      <div className='' >
+        <div className=''>
+          Have Questions? We’re an email away!
+          <br />
+          Reach us at query.bettertogether@gmail.com for questions, queries, or collaborations.
+          <br />
+          Or send us a message on our social media!
+        </div>
+      </div>
 
-      Or send us a message on our social media!
+
+      <ContactForm></ContactForm>
 
       </div>
+
+      <div className='section-contact-us flex flex-col lg:flex-row m-0 justify-evenly bg-slate-400'>
+        <div className='m-10 mb-4 md:mb-0'>
+          <div>
+            Have Questions? We’re an email away!
+            <br />
+            Reach us at <a href="mailto:query.bettertogether@gmail.com" className="text-blue-600">query.bettertogether@gmail.com</a> for questions, queries, or collaborations.
+            <br />
+            Or send us a message on our social media!
+          </div>
+        </div>
+
+        <ContactForm />
+      </div>
+
       
       <div className='section-footer'>
 
       </div>
-    </>
+    </div>
   )
 }
 
