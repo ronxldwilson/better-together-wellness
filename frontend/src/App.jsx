@@ -1,20 +1,21 @@
+import FAQAccordion from './components/FAQAccordion'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div className='header text-3xl ' style={{ display:'flex', justifyContent:'space-between'}}>
+      <div className='header text-2xl flex justify-between m-4'>
         <div className='logo' > Logo </div>
-        <div className='right-menu' style={{display:'flex'}}>
-          <div>Services</div>
-          <div>Team</div>
-          <div>FAQ</div>
+        <div className='right-menu flex' >
+          <div className=''>Services </div>
+          <div>Team </div>
+          <div>FAQ </div>
         </div>
       </div>
 
       <div className='section-Landing'>
-        <h1>Holistic Mental Wellness <br /> For Everyone</h1>
+        <h1>Holistic Mental Wellness For Everyone</h1>
         <h2>We are your go to destination for anything mental health. We offer carefully tailored mental wellness programs with expert guidance and community support that take you from surviving to thriving.</h2>
         <button>Contact Us</button>
       </div>
@@ -54,7 +55,7 @@ function App() {
       </div>
 
       <div className='section-faq'>
-
+      <FAQAccordion></FAQAccordion>
       </div>
 npm
       <div className='section-contact-us'>
