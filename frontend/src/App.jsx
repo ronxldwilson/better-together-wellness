@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div className='header' style={{ display:'flex', justifyContent:'space-between'}}>
+      <div className='header text-3xl ' style={{ display:'flex', justifyContent:'space-between'}}>
         <div className='logo' > Logo </div>
         <div className='right-menu' style={{display:'flex'}}>
           <div>Services</div>
