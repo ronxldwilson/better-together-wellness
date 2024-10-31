@@ -7,8 +7,8 @@ const teamMembers = [
         role: 'Project Manager',
         image: 'https://via.placeholder.com/150',
         socials: {
-            linkedin: 'https://www.linkedin.com/in/naomi',
-            instagram: 'https://www.instagram.com/naomi',
+            linkedin: 'https://www.linkedin.com/in/naomi-susan/',
+            instagram: 'https://www.instagram.com/naomi_susan_',
         },
     },
     {
@@ -16,8 +16,8 @@ const teamMembers = [
         role: 'Frontend Developer',
         image: 'https://via.placeholder.com/150',
         socials: {
-            linkedin: 'https://www.linkedin.com/in/issac',
-            instagram: 'https://www.instagram.com/issac',
+            linkedin: 'https://www.linkedin.com/in/issac-paul-151096/',
+            instagram: 'https://www.instagram.com/izach.paul',
         },
     },
     {
@@ -25,8 +25,8 @@ const teamMembers = [
         role: 'Backend Developer',
         image: 'https://via.placeholder.com/150',
         socials: {
-            linkedin: 'https://www.linkedin.com/in/ron',
-            instagram: 'https://www.instagram.com/ron',
+            linkedin: 'https://www.linkedin.com/in/ronxldwilson/',
+            instagram: 'https://www.instagram.com/ronxldwilson/',
         },
     },
 ];
