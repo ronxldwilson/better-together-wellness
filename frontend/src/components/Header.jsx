@@ -18,6 +18,7 @@ const Header = () => {
           <a href="#about" className="hover:text-gray-400">About</a>
           <a href="#services" className="hover:text-gray-400">Services</a>
           <a href="#contact" className="hover:text-gray-400">Contact</a>
+          <a href="https://pages.razorpay.com/bettertogether" target="_blank" className="hover:text-gray-400">Payment</a>
         </nav>
         {/* Mobile Menu Button */}
         <div className="md:hidden">
@@ -45,6 +46,7 @@ const Header = () => {
           <a href="#about" className="block hover:text-gray-400 py-2">About</a>
           <a href="#services" className="block hover:text-gray-400 py-2">Services</a>
           <a href="#contact" className="block hover:text-gray-400 py-2">Contact</a>
+          <a href="https://pages.razorpay.com/bettertogether" target="_blank" className="block hover:text-gray-400 py-2">Payment</a>
         </div>
       )}
     </header>

@@ -5,6 +5,7 @@ import TeamSection from './components/TeamSection'
 import TestimonalSection from './components/TestimonialSection'
 import LandingSection from './components/LandingSection'
 import BrightAsYou from './components/BrightAsYou'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -32,15 +33,14 @@ function App() {
         <TestimonalSection></TestimonalSection>
       </div>
 
-      <div className='section-faq p-10 bg-red-300
-      '>
+      <div className='section-faq p-10 bg-red-300'>
         <FAQAccordion ></FAQAccordion>
       </div>
 
       <ContactForm></ContactForm>
 
       <div className='section-footer'>
-
+        <Footer></Footer>
       </div>
     </div>
   )
