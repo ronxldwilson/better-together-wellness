@@ -16,6 +16,7 @@ const Header = () => {
         <nav className="hidden md:flex space-x-8">
           <a href="#home" className="hover:text-gray-400">Home</a>
           <a href="#about" className="hover:text-gray-400">About</a>
+          <a href="/Therapy" className="hover:text-gray-400">Therapy</a>
           <a href="#services" className="hover:text-gray-400">Services</a>
           <a href="#contact" className="hover:text-gray-400">Contact</a>
           <a href="https://pages.razorpay.com/bettertogether" target="_blank" className="hover:text-gray-400">Payment</a>
@@ -44,6 +45,7 @@ const Header = () => {
         <div className="md:hidden bg-gray-800 p-4">
           <a href="#home" className="block hover:text-gray-400 py-2">Home</a>
           <a href="#about" className="block hover:text-gray-400 py-2">About</a>
+          <a href="/Therapy" className="hover:text-gray-400">Therapy</a>
           <a href="#services" className="block hover:text-gray-400 py-2">Services</a>
           <a href="#contact" className="block hover:text-gray-400 py-2">Contact</a>
           <a href="https://pages.razorpay.com/bettertogether" target="_blank" className="block hover:text-gray-400 py-2">Payment</a>

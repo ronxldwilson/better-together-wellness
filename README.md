@@ -10,6 +10,7 @@ Tailwind CSS
 
 formspree.io for form submissions w/o a backend - Can be used in future; embeding Google form for now Contact Us
 
+Google Appointment scheduler for bookings and appointments 
 
 ## Deployment
 
