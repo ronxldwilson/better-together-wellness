@@ -15,10 +15,12 @@ const Therapy = () => {
             <div style={{ width: '100%', height: '600px', border: '0', overflow: 'hidden' }}>
             <iframe
                 src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1r6NBlBp2qmfd6qUqSPY716cAvKAGKKe5gORgKwwCN31RAma6ztgj207h4SciFZiAzvjpp7LiW?gv=true"
-                style={{ border: '0', width: '100%', height: '100%' }}
+                style={{ border: '0', width: '100%', height: '100%',  }}
                 frameBorder="0"
                 allowFullScreen
                 title="Google Calendar Appointment Scheduler"
+                class="pointer-events-none"
+                
             ></iframe>
         </div>
         </div>

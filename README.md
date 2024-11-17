@@ -18,4 +18,10 @@ Vercel - https://better-together-wellness.vercel.app/
 
 ## Payments Interface
 
-Razorpay pages for payments for 
+Razorpay pages for collecting payments 
+
+## Things to be added
+- [ ] Linking to Domain
+- [ ] Dealing with Cold Start Problem 
+- [ ] Scheduling Systems
+- [ ] Docker setup
